@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="Vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Nhà hàng</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-sm text-white bg-dark" id="Navbar">
+      <div class="container">
+        <!-- navbar-expand: dàn các mục lục thành hàng ngang -->
+        <!-- navbar-brand:Thương hiệu,logo -->
+        <a class="navbar-brand" href="./activities.html" id="logo"
+          ><span>T</span>ravel</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mynavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+          <!-- navbar-toggler:xuất hiện khi màn hình nhỏ hơn và hiện lên ô vuông nhỏ chứa các mục lục -->
+          <!-- navbar-toggler-icon:icon 3 gạch -->
+        </button>
+        <div class="collapse navbar-collapse" id="mynavbar">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="/WEBSITEDULICH01.github.io-main/BTNHOM1QUAN.github.io/index.html"
+                >Trang chủ</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Giới thiệu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Điểm đến</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./activities.html">Hoạt động</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Khách sạn</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Nhà hàng</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="/WEBSITEDULICH01.github.io-main/contact.html"
+                >Liên hệ</a
+              >
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="text" placeholder="Search" />
+            <button class="btn btn-primary" type="button">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <section class="restaurants" id="restaurants">
+        <div class="container">
+            <div class="main-text">
+                <h1><span>N</span>hà hàng nổi tiếng</h1>
+                <p> 
+                 Nổi bật với ẩm thực phong phú, đa dạng đến từ các vùng miền khác nhau trong nước và quốc tế, Việt Nam tụ hội nhiều nhà hàng bình đân đến cao cấp, là nơi lý tưởng cho các tín đồ ăn uống cũng như là điểm đến cho mọi bữa ăn, nơi gắn kết những câu chuyện.
+                </p>
+            </div>
+                <h2> Hà Nội</h2>
+            <div class="row">
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card">
+                        <img src="bò tơ.png" />
+                        <div class="card-body">
+                            <h3>Bò Tơ Quán Mộc – Nhà hàng phong cách PHỐ XƯA thập niên 80 </h3>
+                            <p>
+                                Bạn đang tìm kiếm một quán ăn chuyên phục các món về bò, với không gian đậm chất Hà Nội xưa hãy đến ngay Bò Tơ Quán Mộc. Đây sẽ là lựa chọn hoàn hảo dành cho bạn. Bò Tơ Quán Mộc được biết đến với thực đơn đa dạng từ chất lượng đến hương vị các món ăn đều được khách hàng đánh giá rất cao. Nhờ bàn tay khéo léo và tài tình của đầu bếp đã biến những món ăn quen thuộc trở nên hấp dẫn hơn bao giờ hết.</p>
+                            <button
+                            class="btn-primary"
+                            data-bs-toggle="modal"
+                            data-bs-target="#modal-1">
+                            Xem thêm
+                        </button>
+                        <div class="modal" id="modal-1">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class=" modal-header"> Thông tin và liên hệ</div>
+                                    <div class="modal-body">
+                                        <ul>
+                                            <li>Các chi nhánh chính thức:
+                                                <ul>
+                                                <li> Cơ sở 1: 84 Ngọc Khánh-Ba Đình- Hà Nội</li>
+                                                <li> Cơ sở 2: B2BT5 Lưu Hữu Phước-KDT Mỹ Đình</li>
+                                                <li> Cơ sở 3 : 02 Đăng Dung, Ba Đình- Hà Nội</li> </ul>
+                                            </li>
+                                            <li>Contact No. : 1900636882</li>
+                                            <li>Fanpage: Bò tơ quán Mộc</li>
+                                            <li>Giờ mở cửa: 09:00-21:00</li>
+                                            <li>Giá: 200.000 VNĐ-300.000 VNĐ</li>
+                                            <li>Đánh giá: 4,5/5</li>
+                                        </ul>
+                                    </div>
+                                    <div class="modal-footer">Đóng</div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                    <div class="col-md-4 py-3 py-md-0">
+                        <div class="card">
+                            <img src="long wang hà nội.png" />
+                            <div class="card-body">
+                                <h3>Nhà hàng Hấp Thuỷ Nhiệt Hồng Kông – Long Wang</h3>
+                                <p>
+                                    Cùng khám phá Nhà hàng lẩu hấp Hồng Kông Long Wang – Top nhà hàng Hà Nội ngon, nổi tiếng được thực khách vô cùng yêu thích. Long Wang sử dụng công nghệ hấp nhiệt số một Hồng Kông. Không dầu mỡ, không chiên rán, giữ trọn vẹn các vitamin và dưỡng chất. Mang đến cho khách hàng một bữa tiệc thơm ngon, đầy dinh dưỡng, lại rất tốt cho sức khỏe. </p>
+                            <button
+                                class="btn-primary"
+                                data-bs-toggle="modal"
+                                data-bs-target="#modal-2">
+                                Xem thêm
+                            </button>
+                            <div class="modal" id="modal-2">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class=" modal-header"> Thông tin và liên hệ</div>
+                                        <div class="modal-body">
+                                            <ul>
+                                                <li>Các cơ sở chính:
+                                                    <ul>
+                                                    <li> Cơ sở 1: 84 Ngọc Khánh- Ba Đình- Hà Nội</li>
+                                                    <li>Cơ sở 2: 539 Minh Khai – Vĩnh Tuy- Hai Bà Trưng</li>
+                                                    <li>Cơ sở 3: 1A Tăng Bạt Hổ – Phạm Đình Hổ – Hai Bà Trưng</li>
+                                                    </ul>
+                                                </li>
+                                                <li>Contact No: 1900636458</li>
+                                                <li>Fanpage: Long Wang- Lẩu hấp thủy nhiệt HongKong</li>
+                                                <li>Giờ mở cửa: 10:00-23:00</li>
+                                                <li>Giá tham khảo: 340.000 VNĐ/ người</li>
+                                                <li>Đánh giá: 4,6/5</li>
+                                            </ul>
+                                        </div>
+                                        <div class="modal-footer">Đóng</div>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 py-3 py-md-0">
+                        <div class="card">
+                            <img src="Rice-Bistro-Ha-Noi.jpg" />
+                            <div class="card-body">
+                                <h3> Rice Bistro Hanoi </h3>
+                                <p>
+                                    Rice Bistro chính là điểm đến lý tưởng đối với những du khách yêu ẩm thực truyền thống của người Việt. Với đội ngũ đầu bếp tài ba giàu kinh nghiệm, nhà hàng Rice Bistro đã tạo nên những món ăn đậm vị Việt nhưng lại được bài trí khéo léo, tinh tế theo kiểu phương Tây trang nhã. </p>
+                            <button
+                                class="btn-primary"
+                                data-bs-toggle="modal"
+                                data-bs-target="#modal-3">
+                                Xem thêm
+                            </button>
+                            <div class="modal" id="modal-3">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class=" modal-header"> Thông tin và liên hệ</div>
+                                        <div class="modal-body">
+                                            <ul>
+                                                <li>Location: #2 Hàng Mành, Hoàn Kiếm, Hà Nội</li>
+                                                <li>Contact No. : 243 928 8912</li>
+                                                <li>Giờ mở cửa: 06:30-22:00</li>
+                                                <li>Giá: 300.000 VNĐ-800.000 VNĐ</li>
+                                                <li>Đánh giá: 4,3/5</li>
+                                            </ul>
+                                        </div>
+                                        <div class="modal-footer">Đóng</div>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                <h2> Đà Nẵng</h2>
+            <div class="row">
+                    <div class="col-md-4 py-3 py-md-0">
+                        <div class="card">
+                            <img src="nha-hang-da-nang-1.jpg" />
+                            <div class="card-body">
+                                <h3> Nhà hàng Hải sản phố- Thiên đường hải sản tại Đà Nẵng</h3>
+                                <p>
+                                    Nằm tại con đường Võ Nguyên Giáp sôi động, nhộn nhịp, nhà hàng Hải Sản Phố có không gian cực kỳ sang trọng. Vị trí nhà hàng nằm ngay cạnh bờ biển đẹp, từ nhà hàng có thể thấy view biển xanh biếc cùng sóng vỗ rì rào. </p>
+                                <button
+                                class="btn-primary"
+                                data-bs-toggle="modal"
+                                data-bs-target="#modal-4">
+                                Xem thêm
+                            </button>
+                            <div class="modal" id="modal-4">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class=" modal-header"> Thông tin và liên hệ</div>
+                                        <div class="modal-body">
+                                            <ul>
+                                                <li> Location : Số 51, Đường Võ Nguyên Giáp, Phường Bắc Mỹ An, Quận Ngũ Hành Sơn, thành phố Đà Nẵng</li>
+                                                <li> Contact No: +84-037-888-4598</li> 
+                                                <li>Giá: 45.000-300.000/món</li>
+                                                <li>Đánh giá: 4,3/5</li>
+                                            </ul>
+                                        </div>
+                                        <div class="modal-footer">Đóng</div>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 py-3 py-md-0">
+                        <div class="card">
+                            <img src="nha-hang-da-nang-7.jpg" />
+                            <div class="card-body">
+                                <h3>Nhà hàng Cá Voi Xanh</h3>
+                                <p>Nổi tiếng bậc nhất khi nói tới những nhà hàng Đà Nẵng nổi tiếng. Nhà hàng Cá Voi Xanh có thiết kế hiện đại, không gian thoáng đãng mang đến du khách địa điểm ăn uống lý tưởng.</p>
+                                <button
+                                class="btn-primary"
+                                data-bs-toggle="modal"
+                                data-bs-target="#modal-5">
+                                Xem thêm
+                                </button>
+                            <div class="modal" id="modal-5">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class=" modal-header"> Thông tin và liên hệ</div>
+                                        <div class="modal-body">
+                                            <ul>
+                                                <li> Location: Lô 5-6 Võ Nguyên Giáp, Phường Phước Mỹ, Quận Sơn Trà, Đà Nẵng. </li>
+                                                <li> Contact: 0987654321</li>
+                                                <li> Giá: 30.000-1.000.000đ/ món</li>
+                                                <li> Thời gian: 10:00-22:00</li>
+                                            </ul> 
+                                        </div>
+                                        <div class="modal-footer">Đóng</div>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 py-3 py-md-0">
+                        <div class="card">
+                            <img src="nha-hang-da-nang-9.jpg" />
+                            <div class="card-body">
+                                <h3>Nhà hàng King Garden </h3>
+                                <p>
+                                    Nằm trên con đường trung tâm, King Garden là một trong những nhà hàng top đầu không thể bỏ lỡ tại Đà Nẵng. Được thiết kế tỉ mỉ từ background, sảnh chụp hình, sân khấu, thảm đỏ,…đều được trú trọng. </p>
+                            <button
+                                class="btn-primary"
+                                data-bs-toggle="modal"
+                                data-bs-target="#modal-6">
+                                Xem thêm
+                            </button>
+                            <div class="modal" id="modal-6">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class=" modal-header"> Thông tin và liên hệ</div>
+                                        <div class="modal-body">
+                                            <ul>
+                                                <li>Location: 456A Nguyễn Tri Phương, Hải Châu, Đà Nẵng</li>
+                                                <li>Contact No. : 1900-242526</li>
+                                                <li>Giờ mở cửa: 06:30-22:00</li>
+                                                <li>Giá: 300.000 VNĐ-800.000 VNĐ</li>
+                                                <li>Đánh giá: 4/5</li>
+                                            </ul>
+                                        </div>
+                                        <div class="modal-footer">Đóng</div>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                <h2> Nha Trang</h2>
+            <div class="row">
+                    <div class="col-md-4 py-3 py-md-0">
+                        <div class="card">
+                            <img src="nha-hang-nha-trang-7.jpg" />
+                            <div class="card-body">
+                                <h3>Nhà hàng Nha Trang xưa</h3>
+                                <p>Một nhà hàng ấn tượng tại Nha Trang dành cho ai yêu thích sự yên bình. Có diện tích khoảng 400m2 bao gồm 2 hồ sen, 2 gian nhà cổ và các nhà tranh, vườn rau, cầu ao… Tất cả tạo nên khung cảnh thơ mộng, cổ xưa đầy bình lặng </p>
+                                <button
+                                class="btn-primary"
+                                data-bs-toggle="modal"
+                                data-bs-target="#modal-7">
+                                Xem thêm
+                                </button>
+                            <div class="modal" id="modal-7">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class=" modal-header"> Thông tin và liên hệ</div>
+                                        <div class="modal-body">
+                                            <ul>
+                                                <li> Location: Thái Thông, xã Vĩnh Thái, Nha Trang, Khánh, Hòa </li>
+                                                <li> Contact: 1900 247687</li>
+                                                <li> Thời gian: 9:00-21:00</li>
+                                                <li> Đánh giá: 4,2/5</li>
+                                            </ul>
+                                        </div>
+                                        <div class="modal-footer">Đóng</div>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 py-3 py-md-0">
+                        <div class="card">
+                            <img src="nha-hang-nha-trang-11.jpg" />
+                            <div class="card-body">
+                                <h3>Nhà hàng Yên</h3>
+                                <p> Yên sở hữu vẻ đẹp cổ kính, mang đến thực khách hương vị Việt xưa. Nơi đây mang đậm kiến trúc Đông Dương với tông màu chủ đạo là đỏ và đen. Nhà hàng tập trung vào các món ăn quen thuộc trong các bữa cơm gia đình. Đội ngũ nhân viên rất tận tình, chuyên nghiệp trong phục vụ khách hàng.</p>
+                                <button
+                                class="btn-primary"
+                                data-bs-toggle="modal"
+                                data-bs-target="#modal-8">
+                                Xem thêm
+                                </button>
+                            <div class="modal" id="modal-8">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class=" modal-header"> Thông tin và liên hệ</div>
+                                        <div class="modal-body">
+                                            <ul>
+                                                <li> Location: 73/6 đường Trần Quang Khải, Nha Trang, Khánh Hòa</li>
+                                                <li> Contact: 0254674521</li>
+                                                <li> Thời gian: 11:00-22:00</li>
+                                                <li> Giá: 39.000-1.000.000</li>
+                                            </ul>
+                                        </div>
+                                        <div class="modal-footer">Đóng</div>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 py-3 py-md-0">
+                        <div class="card">
+                            <img src="nha-hang-nha-trang-16.jpg" />
+                            <div class="card-body">
+                                <h3>Costa Seafood</h3>
+                                <p> Đúng với tên gọi của Costa Seafood, nhà hàng Nha Trang này chuyên bán các món ăn về hải sản. Phải gọi là thiên đường vì số lượng hải sản cực kỳ nhiều. Đa số đánh bắt từ vùng biển địa phương và nhập khẩu trực tiếp quốc tế.</p>
+                                <button
+                                class="btn-primary"
+                                data-bs-toggle="modal"
+                                data-bs-target="#modal-9">
+                                Xem thêm
+                                </button>
+                            <div class="modal" id="modal-9">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class=" modal-header"> Thông tin và liên hệ</div>
+                                        <div class="modal-body">
+                                            <ul>
+                                                <li> Location: 32-34 đường Trần Phú, Nha Trang, Khánh Hòa</li>
+                                                <li> Contact: 0254367521</li>
+                                                <li> Thời gian: 8:00-22:00</li>
+                                                <li> Giá: 200.000-500.000</li>
+                                            </ul>
+                                        </div>
+                                        <div class="modal-footer">Đóng</div>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                <h2> Đà Lạt</h2>
+            <div class="row">
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card">
+                        <img src="memory-acoustic-.jpg" />
+                        <div class="card-body">
+                            <h3> Nhà hàng Memory Đà Lạt</h3>
+                            <p>
+                                Nhà hàng Memory là một trong những nhà hàng nổi tiếng nhất tại Đà Lạt chắc chắn không thể bỏ qua. Với không gian mở và cách bài trí ấn tượng. Không gian nơi đây tái hiện lên trong lòng thực khách những ký ức. Về Đà Lạt xưa – một thành phố rất gần gũi, tách biệt được âm thanh ồn ào, khói bụi nơi thành thị.</p>
+                            <button
+                            class="btn-primary"
+                            data-bs-toggle="modal"
+                            data-bs-target="#modal-10">
+                            Xem thêm
+                            </button>
+                        <div class="modal" id="modal-10">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class=" modal-header"> Thông tin và liên hệ</div>
+                                    <div class="modal-body">
+                                        <ul>
+                                            <li> Location: Số 24/7 Hùng Vương, phường 10, Đà Lạt, Lâm Đồng</li>
+                                            <li> Contact: 0916 871 306</li>
+                                            <li> Giờ mở cửa: 7:00-22:00 </li>
+                                            <li> Giá: 35.000-250.000</li>
+                                            <li> Đánh giá: 3,5/5</li>
+                                        </ul>
+                                    </div>
+                                    <div class="modal-footer">Đóng</div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                    <div class="col-md-4 py-3 py-md-0">
+                        <div class="card">
+                            <img src="Mercure.jpg" />
+                            <div class="card-body">
+                                <h3>Nhà hàng Beer Saloon Đà Lạt</h3>
+                                <p> Beer Saloon là một trong những nhà hàng Đà Lạt nổi tiếng, luôn là điểm đến yêu thích của du khách bởi không gian ấm cúng và thực đơn phong phú.Tại Beer Saloon, bạn sẽ được đắm chìm trong một thế giới bia đa dạng, từ những loại bia danh tiếng của Bỉ, Pháp, Đức, Ý, cho đến những chai rượu ngoại nhập cao cấp. Điều đặc biệt là mỗi loại bia, rượu đều có một món ăn kèm được chế biến riêng, tạo nên một sự kết hợp hoàn hảo mà các tín đồ “mê bia rượu” không thể bỏ qua.</p>
+                                <button
+                                class="btn-primary"
+                                data-bs-toggle="modal"
+                                data-bs-target="#modal-11">
+                                Xem thêm
+                                </button>
+                            <div class="modal" id="modal-11">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class=" modal-header"> Thông tin và liên hệ</div>
+                                        <div class="modal-body">
+                                            <ul>
+                                                <li> Location: 188-119 KQH Phan Đình Phùng-Tô Ngọc Vân, phường 2, tp. Đà Lạt</li>
+                                                <li> Contact: 0868777788</li>
+                                                <li> Giờ mở cửa: 10:00-22:00</li>
+                                                <li> Giá : 85.000-4.000.000</li>
+                                                <li> Đánh giá: 4,5/5</li>
+                                            </ul>
+                                        </div>
+                                        <div class="modal-footer">Đóng</div>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 py-3 py-md-0">
+                        <div class="card">
+                            <img src="nam anh phát đà lạt.jpg" />
+                            <div class="card-body">
+                                <h3>Nhà hàng Nam Anh Phát Đà Lạt</h3>
+                                <p>Nhà hàng Nam Anh Phát, là một nhà hàng cho gia đình Đà Lạt lý tưởng cho những bữa ăn ngon miệng trong không gian ấm cúng và thân thiện. Nhà hàng này có vị trí vô cùng thuận lợi nằm cách chợ Đà Lạt tầm 500m. Nơi đây được nhiều du khách biết đến và chọn làm nơi ăn uống giao lưu. Bởi vị trí thuận lợi và các món ăn chất lượng.</p>
+                                <button
+                                class="btn-primary"
+                                data-bs-toggle="modal"
+                                data-bs-target="#modal-12">
+                                Xem thêm
+                                </button>
+                            <div class="modal" id="modal-12">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class=" modal-header"> Thông tin và liên hệ</div>
+                                        <div class="modal-body">
+                                            <ul>
+                                                <li> Location: 36 Mạc Đĩnh Chi, phuo0wngf 4, Đà Lạt, Lâm Đồng </li>
+                                                <li> Contact: 0989268252-02633508788</li>
+                                                <li> Thời gian: 9:00-23:00</li>
+                                                <li> Giá: 50.000-250.000</li>
+                                                <li> Đánh giá: 3,8/5</li>
+                                            </ul>
+                                        </div>
+                                        <div class="modal-footer">Đóng</div>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <buttion class="btn btn-primary" type="link" >
+            <a href="#" style="color:burlywood">Quay lại đầu trang</a>
+          </buttion>
+          <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"
+          ></script>
+    <a href="index.html">Quay lại trang chủ</a>
+</body>
+</html>
