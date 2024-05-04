@@ -1,0 +1,63 @@
+*{
+    margin: 3px;;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 200vh;
+}
+
+.menu{
+    width: 100%;
+    height: 50px;
+    background-color: #322b2b;
+    display: flex;
+
+}
+
+.menu > a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    margin: auto 20px;
+}
+
+.banner{
+    width: 100%;
+    height: 800px;
+}
+
+.banner > img{
+    width: 100%;
+    height: 100%;
+}
+
+.h1{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 50px;
+    
+}
+
+.content{
+    width: 100%;
+}
+
+.content > p{
+    font-size: 20px;
+    margin-top: 50px;
+
+}
+
+.content0{
+    width: 100%;
+    height: 2500px;
+}
+
+.content0 > img{
+    width: 100%;
+    height: 100%;
+}
