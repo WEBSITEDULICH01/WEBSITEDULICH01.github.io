@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+header {
+    background-color: rgb(113, 146, 207);
+    color: #181111;
+    padding: 20px;
+    text-align: center;
+  }
+
 .container{
     width: 100%;
     height: 200vh;
