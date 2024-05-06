@@ -28,7 +28,7 @@
   /* Xác định khảng cách lề bên trái */
 }
 .navbar-toggler{
-  color:white;
+  color: orange;
 }
 .nav-item .nav-link{
   font-size: 16px;
@@ -38,7 +38,7 @@
   border-radius: 3px;
   /* độ bo góc */
   transition: 0 0.5s ease;
-  Tốc độ chuyển đổi(khoảng thời gian dừng cho mỗi hiệu ứng khoảng thời gian chuyển đổi diễn ra,)
+  /* Tốc độ chuyển đổi(khoảng thời gian dừng cho mỗi hiệu ứng khoảng thời gian chuyển đổi diễn ra,) */
   color:white;
 }
 .nav-item .nav-link:hover{
@@ -101,3 +101,11 @@
   font-size:20px;
   font-weight: 500;
 }
+.modal-footer{
+  text-align: center;
+}
+.card .card-body .btn-primary{
+  background-color:orange;
+}
+
+  
