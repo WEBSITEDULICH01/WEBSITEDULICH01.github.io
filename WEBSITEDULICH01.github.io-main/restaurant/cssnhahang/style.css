@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+  }
+  
+  #logo{
+    font-size: 36px;
+    font-weight: 700;
+    color: white;
+    text-shadow: 0px 1px 1px white;
+    margin-bottom: 5px;
+  }
+  #logo span{
+    color:orange;
+  }
+  .navbar-toggler span{
+    color:orange;
+  }
+  .navbar-nav{
+    margin-left: 20px;
+  }
+  .navbar-toggler{
+    color:orange;
+  }
+  .nav-item .nav-link{
+    font-size: 16px;
+    font-weight: 550;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    transition: 0 0.5s ease;
+    color:white;
+  }
+  .nav-item .nav-link:hover{
+    background-color: orange;
+  }
+  #Navbar form button{
+    background-color: orange;
+    color:white;
+    border:none;
+  }
+  
+  /* restaurant */
+  .main-txt h2{
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 600;
+    text-shadow: 0px 1px 1px burlywood;;
+  }
+  .main-txt h1 span{
+    color:red;
+  }
+  .restaurent .card{
+    border-radius: 5px;
+    border: none;
+    box-shadow: rgba(0,0,0,0.1) 0px 8px 20px;
+    margin-top: 30px;
+  }
+  .restaurent .card img{
+    border-radius: 5px;
+    height:200px;
+  }
+  .restaurent .card .card-body{
+    background:transparent;
+  }
+  
+  /* Tiêu đề */
+  .restaurent .card .card-body h3{
+    font-size: 25px;
+    font-weight: 600;
+  }
+  h1 {
+    text-align: center;
+  }
+  /* Nội dung */
+  .restaurent .card .card-body p{
+    font-size: 15px;
+  }
+  
+  /* Ngôi sao */
+  .checked{
+    color:red;
+  }
+  .star i{
+    font-size: 15px;
+  }
+  
+  .modal-header{
+    font-size:20px;
+    font-weight: 500;
+  }
+h2 {
+    color: brown;
+    font-size: 125%;
+    
+}
+h4 {
+    color:black;
+    font-size: 150%;
+}
