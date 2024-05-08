@@ -73,6 +73,7 @@
   }
   h1 {
     text-align: center;
+    color: orange;
   }
   /* Nội dung */
   .hotels .card .card-body p{
