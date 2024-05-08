@@ -1,0 +1,205 @@
+.header {
+    
+    background-image: url(https://i.pinimg.com/564x/79/40/86/794086ae79b695b15f960a05f90e12c1.jpg);
+    
+    background-size:  auto auto;
+}
+
+header {
+    background-color: #ffffff00;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav {
+    background-color: rgba(35, 98, 153, 0);
+    text-align: left;
+    padding: 30px ;
+}
+.wrapper {
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    display: grid;
+    text-align: center;
+  
+  }
+.item1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.item2 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.item3 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+nav ul {
+    list-style-type: none;
+    text-align:center;
+    padding: 20px;
+    width: 100%;
+   
+}
+
+nav li {
+    display: inline;
+    text-align:center;
+   
+}
+a {
+    color: rgb(255, 255, 255);
+    background-color: rgb(21, 63, 99);
+    text-decoration: none;
+    padding: 20px 40px ;
+    border-color:rgb(255, 255, 255);
+    font-family: 'Chonburi', serif;font-weight: 300;font-style:normal;
+ }
+a:hover {
+    color: rgba(14, 50, 82, 0.918);
+    background-color:  rgb(231, 236, 240);
+}
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+section {
+    padding: 150px;
+    text-align: center;
+}
+h1 {
+    color: rgb(21, 63, 99) ;
+    font-size: 100px;
+    font-family: 'Chonburi', serif;font-weight: 500;font-style: normal;
+}
+h2 {
+    color: rgb(15, 49, 76) ;
+    font-size: 40px;
+    font-family: 'Chonburi', serif;font-weight: 500;font-style:normal;
+    text-align: left;
+    padding: 20px
+}
+h3 {
+    font-family: 'Chonburi', serif;font-weight: 500;font-style:normal;
+    color:  rgb(15, 49, 76) ;
+    font-size: 30px;
+    padding: 60px
+}
+
+footer {
+    
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+p {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size:initial;
+    padding:  80px;
+    background-color: rgba(14, 50, 82, 0.781);
+    font-family: "Viaoda Libre", serif;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+    font-style: normal;
+}
+/* Mui ten lên dau trang */
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 60px;
+    right: 10px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #0d3d69;
+    border: 10px solid #0d3d69;
+    color: white;
+    cursor: pointer;
+    border-radius: 30px;
+    opacity: 0.7;
+    }
+     
+    #myBtn:hover {
+    background-color: #ffffff;
+    }
+
+img {
+    width: 300px;
+    height: 300px;
+    padding: 0px;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  scroll-behavior:smooth;
+}
+
+#logo{
+  font-size: 26px;
+  font-weight: 700;
+  color: white;
+  text-shadow: 0px 1px 1px rgb(165, 165, 125);
+  margin-bottom: 4px;
+}
+#logo span{
+  color:rgb(255, 165, 0);
+}
+.navbar-toggler span{
+  color:orange;
+}
+.navbar-nav{
+  margin-left: 20px;
+}
+.navbar-toggler{
+  color:white;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    font-size: smaller;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    padding:0px;
+    
+  }
+  .dropbtn {
+    color: rgb(231, 241, 249);
+    background-color:  rgba(57, 95, 125, 0);
+    padding: 0px;
+    font-size: 5px;
+    border: none;
+  }
+  .dropdown-content a {
+    color: rgb(231, 241, 249);
+    background-color:   rgb(21, 63, 99) ;
+    padding: 20px 40px;
+    text-decoration: none;
+    display: block;
+    font-size: 15px;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: rgb(231, 236, 240)  ;
+    color:  rgb(21, 63, 99) ;
+    padding: 10px 20px;
+}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color:  rgb(21, 63, 99);}
+
