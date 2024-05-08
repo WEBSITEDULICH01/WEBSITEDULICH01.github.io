@@ -143,14 +143,14 @@ img {
 }
 
 #logo{
-  font-size: 26px;
+  font-size: 36px;
   font-weight: 700;
   color: white;
-  text-shadow: 0px 1px 1px rgb(165, 165, 125);
-  margin-bottom: 4px;
+  text-shadow: 0px 1px 1px white;
+  margin-bottom: 5px;
 }
 #logo span{
-  color:rgb(255, 165, 0);
+  color:orange;
 }
 .navbar-toggler span{
   color:orange;
@@ -160,6 +160,22 @@ img {
 }
 .navbar-toggler{
   color:white;
+}
+.nav-item .nav-link{
+  font-size: 16px;
+  font-weight: 550;
+  letter-spacing: 1px;
+  border-radius: 3px;
+  transition: 0 0.5s ease;
+  color:white;
+}
+.nav-item .nav-link:hover{
+  background-color: orange;
+}
+#Navbar form button{
+  background-color: orange;
+  color:white;
+  border:none;
 }
 .dropdown {
     position: relative;
