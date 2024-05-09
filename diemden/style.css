@@ -59,7 +59,7 @@ nav li {
     font-family: 'Chonburi', serif;font-weight: 300;font-style:normal;
  }
  
-a:hover {
+.dropbtn a:hover {
     color: rgba(14, 50, 82, 0.918);
     background-color:  rgb(231, 236, 240);
 }
