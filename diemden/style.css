@@ -3,6 +3,7 @@
     background-image: url(https://i.pinimg.com/564x/79/40/86/794086ae79b695b15f960a05f90e12c1.jpg);
     
     background-size:  auto auto;
+    
 }
 
 header {
@@ -11,6 +12,7 @@ header {
     text-align: center;
     padding: 20px 0;
 }
+
 nav {
     background-color: rgba(35, 98, 153, 0);
     text-align: left;
@@ -73,6 +75,8 @@ nav a {
 width: 100%;
 }
 
+
+
 section {
     padding: 150px;
     text-align: center;
@@ -84,7 +88,7 @@ h1 {
 }
 h2 {
     color: rgb(15, 49, 76) ;
-    font-size: 40px;
+    font-size: 50px;
     font-family: 'Chonburi', serif;font-weight: 500;font-style:normal;
     text-align: left;
     padding: 20px
@@ -100,13 +104,13 @@ footer {
     
     color: #fff;
     text-align: center;
-    padding: 10px 0;
+    padding: 5px 0;
 }
 p {
     color: rgb(255, 255, 255);
     text-decoration: none;
     font-size:initial;
-    padding:  80px;
+    padding:  50px;
     background-color: rgba(14, 50, 82, 0.781);
     font-family: "Viaoda Libre", serif;
     font-weight: 400;
@@ -162,7 +166,7 @@ img {
   color:orange;
 }
 .navbar-nav{
-  margin-left: 20px;
+  margin-left: 40px;
 }
 .navbar-toggler{
   color:white;
@@ -225,3 +229,4 @@ img {
   /* Change the background color of the dropdown button when the dropdown content is shown */
   .dropdown:hover .dropbtn {background-color:  rgb(21, 63, 99);}
 
+  
