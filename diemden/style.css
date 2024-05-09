@@ -48,7 +48,7 @@ nav li {
     text-align:center;
    
 }
-a {
+.dropbtn a {
     color: rgb(255, 255, 255);
     background-color: rgb(21, 63, 99);
     text-decoration: none;
@@ -56,6 +56,7 @@ a {
     border-color:rgb(255, 255, 255);
     font-family: 'Chonburi', serif;font-weight: 300;font-style:normal;
  }
+ 
 a:hover {
     color: rgba(14, 50, 82, 0.918);
     background-color:  rgb(231, 236, 240);
@@ -63,7 +64,13 @@ a:hover {
 nav a {
     color: #ffffff;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 20px;
+    background-color: dimgrey;
+    padding:20px
+}
+.navbar-nav ul{
+  background-color: dimgrey;
+width: 100%;
 }
 
 section {
